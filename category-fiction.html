@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Kategori</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/LogoLovebook.png" rel="icon">
+    <link href="assets/img/LogoLovebook.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Amatic+SC:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top d-flex align-items-center">
+        <div class="container d-flex align-items-center justify-content-between">
+
+            <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
+                <!-- Uncomment the line below if you also wish to use an image logo -->
+                <img src="assets/img/logolovebookFIX.png" alt="">
+                <h1 class="navbar">Lovebook<span>.</span></h1>
+            </a>
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li class="dropdown"><a href="category.html"><span>Kategori</span> <i
+                                class="bi bi-chevron-down dropdown-indicator"></i></a>
+                        <ul>
+                            <li><a href="category-fiction.html">Fiksi</a></li>
+                            <li><a href="category-nonfiction.html">Non-Fiksi</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="aboutus.html">Tentang Kami</a></li>
+                </ul>
+            </nav><!-- .navbar -->
+            <nav>
+                <a href="cart.html"><i class="bi bi-cart4 position-relative fs-5"><span
+                            class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">2
+                            <span class="visually-hidden">unread messages</span></span></i></a>
+                <a class="btn-book-a-table bi bi-person-circle fs-5" href="profile.html"></a>
+            </nav>
+            <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+            <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+        </div>
+    </header><!-- End Header -->
+    <main id="main">
+
+        <!-- ======= Breadcrumbs ======= -->
+        <div class="breadcrumbs">
+            <div class="container">
+
+                <div class="d-flex justify-content-between align-items-center">
+                    <h2>Daftar Buku</h2>
+                    <ol>
+                        <li><a href="index.html">Home</a></li>
+                        <li>Daftar Buku</li>
+                    </ol>
+                </div>
+
+            </div>
+        </div><!-- End Breadcrumbs -->
+
+        <section class="sample-page">
+            <div class="container">
+                <div class="shadow-none p-3 bg-light rounded">
+
+                    <nav class="navbar-expand-lg bg-light">
+                        <div class="container-fluid">
+                            <div class="navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link disabled fs-4 d-flex justify-content-center">Kategori</a>
+                                    </li>
+                                    <li class="nav-item ms-2">
+                                        <a class="nav-link btn btn-outline-light fs-5" style="color:#dc3545"
+                                            href="category.html">Semua</a>
+                                    </li>
+                                    <li class="nav-item ms-2">
+                                        <a class="nav-link btn btn-danger fs-5" style="color:white" href="#">Fiksi</a>
+                                    </li>
+                                    <li class="nav-item ms-2">
+                                        <a class="nav-link btn btn-outline-light fs-5" style="color:#dc3545"
+                                            href="category-nonfiction.html">Non-Fiksi</a>
+                                    </li>
+                                </ul>
+                                <form class="d-flex" role="search">
+                                    <input class="form-control me-2 rounded-pill" type="search" placeholder="Cari buku"
+                                        aria-label="Search">
+                                    <button class="btn btn-outline-danger rounded-pill" type="submit">Cari</button>
+                                </form>
+                            </div>
+                        </div>
+                    </nav>
+
+                </div>
+
+                <!-- <div class="shadow-none p-3 bg-light rounded">
+          <h5>Kategori
+            <a href="category.html" class="btn btn-sm btn-danger ms-2">Semua</a>
+            <a href="category/fiction.html" class="btn btn-sm btn-outline-danger">Fiksi</a>
+            <a href="category/nonfiction.html" class="btn btn-sm btn-outline-danger">Non-Fiksi</a>
+          </h5>
+        </div> -->
+
+                <!-- baris baru -->
+                <div class="container" data-aos="fade-up">
+                    <div class="row row-cols-1 row-cols-md-3 g-4 mt-1">
+                        <div class="col">
+                            <div class="card h-100 shadow-sm">
+                                <a href="books/alice.html"><img src="assets/img/menu/alice.png" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                    <small>
+                                        <p class="text-muted">Lewis Carrol</p>
+                                    </small>
+                                    <h5 class="card-title"><a href="books/alice.html">Alice’s Adventures in Wonderland </a></h5>
+                                    <p class="card-text fs-4"><b>Rp. 60.000,-</b><a href="#"><i
+                                                class="bi bi-heart fs-5 ms-3"></i></a></p>
+                                    <button type="button" class="btn btn-danger rounded-pill"><i
+                                            class="bi bi-cart4 me-2"></i>Beli</button>
+                                    <a href="books/alice.html"><button type="button" class="btn btn-outline-danger rounded-pill">Detail</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 shadow-sm">
+                                <a><img src="assets/img/menu/ayahku.png" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                    <small>
+                                        <p class="text-muted">Tere Liye</p>
+                                    </small>
+                                    <h5 class="card-title"><a style="color:#CE1212">Ayahku Bukan Pembohong</a></h5>
+                                    <p class="card-text fs-4"><b>Rp. 55.000,-</b><a href="#"><i
+                                                class="bi bi-heart fs-5 ms-3"></i></a></p>
+                                    <button type="button" class="btn btn-danger rounded-pill"><i
+                                            class="bi bi-cart4 me-2"></i>Beli</button>
+                                    <button type="button" class="btn btn-outline-danger rounded-pill">Detail</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 shadow-sm">
+                                <a href="books/dearnathan.html"><img src="assets/img/menu/dearnathan.png" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                    <small>
+                                        <p class="text-muted">Erisca Febriani</p>
+                                    </small>
+                                    <h5 class="card-title"><a href="books/dearnathan.html">Dear Nathan</a></h5><br>
+                                    <p class="card-text fs-4"><b>Rp. 70.000,-</b><a href="#"><i
+                                                class="bi bi-heart fs-5 ms-3"></i></a></p>
+                                    <button type="button" class="btn btn-danger rounded-pill"><i
+                                            class="bi bi-cart4 me-2"></i>Beli</button>
+                                    <a href="books/dearnathan.html"><button type="button" class="btn btn-outline-danger rounded-pill">Detail</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 shadow-sm">
+                                <a href="books/enola1.html"><img src="assets/img/menu/enola1.png" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                    <small>
+                                        <p class="text-muted">Nancy Springer</p>
+                                    </small>
+                                    <h5 class="card-title"><a href="books/enola1.html">Enola Holmes</a></h5><br>
+                                    <p class="card-text fs-4"><b>Rp. 80.000,-</b><a href="#"><i
+                                                class="bi bi-heart fs-5 ms-3"></i></a></p>
+                                    <button type="button" class="btn btn-danger rounded-pill"><i
+                                            class="bi bi-cart4 me-2"></i>Beli</button>
+                                    <a href="books/enola1.html"><button type="button" class="btn btn-outline-danger rounded-pill">Detail</button></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- baris baru -->
+                    <div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
+                        <div class="col">
+                            <div class="card h-100 shadow-sm">
+                                <a href="books/kata.html"><img src="assets/img/menu/kata.png" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                    <small>
+                                        <p class="text-muted">Rintik Sedu</p>
+                                    </small>
+                                    <h5 class="card-title"><a href="books/kata.html">Kata</a></h5><br>
+                                    <p class="card-text fs-4"><b>Rp. 75.000,-</b><a href="#"><i
+                                                class="bi bi-heart fs-5 ms-3"></i></a></p>
+                                    <button type="button" class="btn btn-danger rounded-pill"><i
+                                            class="bi bi-cart4 me-2"></i>Beli</button>
+                                    <a href="books/kata.html"><button type="button" class="btn btn-outline-danger rounded-pill">Detail</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 shadow-sm">
+                                <a href="books/littlewoman.html"><img src="assets/img/menu/littlewoman.png" class="card-img-top"
+                                        alt="..."></a>
+                                <div class="card-body">
+                                    <small>
+                                        <p class="text-muted">Lousa May Alcott</p>
+                                    </small>
+                                    <h5 class="card-title"><a href="books/littlewoman.html">Little Women & Good Wives</a></h5>
+                                    <p class="card-text fs-4"><b>Rp. 80.000,-</b><a href="#"><i
+                                                class="bi bi-heart fs-5 ms-3"></i></a></p>
+                                    <button type="button" class="btn btn-danger rounded-pill"><i
+                                            class="bi bi-cart4 me-2"></i>Beli</button>
+                                    <a href="books/littlewoman.html"><button type="button" class="btn btn-outline-danger rounded-pill">Detail</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 shadow-sm">
+                                <a><img src="assets/img/menu/mariposa.png" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                    <small>
+                                        <p class="text-muted">Luluk HF</p>
+                                    </small>
+                                    <h5 class="card-title"><a style="color:#CE1212">Mariposa</a></h5><br>
+                                    <p class="card-text fs-4"><b>Rp. 70.000,-</b><a href="#"><i
+                                                class="bi bi-heart fs-5 ms-3"></i></a></p>
+                                    <button type="button" class="btn btn-danger rounded-pill"><i
+                                            class="bi bi-cart4 me-2"></i>Beli</button>
+                                    <button type="button" class="btn btn-outline-danger rounded-pill">Detail</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 shadow-sm">
+                                <a><img src="assets/img/menu/teluk.png" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                    <small>
+                                        <p class="text-muted">Eka Aryani</p>
+                                    </small>
+                                    <h5 class="card-title"><a style="color:#CE1212">Teluk Alaska</a></h5><br>
+                                    <p class="card-text fs-4"><b>Rp. 75.000,-</b><a href="#"><i
+                                                class="bi bi-heart fs-5 ms-3"></i></a></p>
+                                    <button type="button" class="btn btn-danger rounded-pill"><i
+                                            class="bi bi-cart4 me-2"></i>Beli</button>
+                                    <button type="button" class="btn btn-outline-danger rounded-pill">Detail</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- baris baru -->
+                    <div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
+                        <div class="col">
+                            <div class="card h-100 shadow-sm">
+                                <a><img src="assets/img/menu/tenggelam.png" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                    <small>
+                                        <p class="text-muted">Hamka</p>
+                                    </small>
+                                    <h5 class="card-title"><a style="color:#CE1212">Tenggelamnya Kapal Van Der Wijck</a></h5>
+                                    <p class="card-text fs-4"><b>Rp. 85.000,-</b><a href="#"><i
+                                                class="bi bi-heart fs-5 ms-3"></i></a></p>
+                                    <button type="button" class="btn btn-danger rounded-pill"><i
+                                            class="bi bi-cart4 me-2"></i>Beli</button>
+                                    <button type="button" class="btn btn-outline-danger rounded-pill">Detail</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 shadow-sm">
+                                <a><img src="assets/img/menu/tentang.png" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                    <small>
+                                        <p class="text-muted">Tere Liye</p>
+                                    </small>
+                                    <h5 class="card-title"><a style="color:#CE1212">Tentang Kamu</a></h5>
+                                    <p class="card-text fs-4"><b>Rp. 80.000,-</b><a href="#"><i
+                                                class="bi bi-heart fs-5 ms-3"></i></a></p>
+                                    <button type="button" class="btn btn-danger rounded-pill"><i
+                                            class="bi bi-cart4 me-2"></i>Beli</button>
+                                    <button type="button" class="btn btn-outline-danger rounded-pill">Detail</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main><!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+
+        <div class="container">
+            <div class="row gy-3">
+                <div class="col-lg-3 col-md-6 d-flex">
+                    <i class="bi bi-geo-alt icon"></i>
+                    <div>
+                        <h4>Alamat</h4>
+                        <p>
+                            KAMPUS BOGOR - Jl. Raya Pajajaran, Kota Bogor,<br>
+                            Jawa Barat 16128 <br>
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-links d-flex">
+                    <i class="bi bi-telephone icon"></i>
+                    <div>
+                        <h4>Hubungi kami</h4>
+                        <p>
+                            <strong>Phone:</strong> +1 5589 55488 55<br>
+                            <strong>Email:</strong> love@book.com<br>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-links">
+                    <h4>Temukan kami</h4>
+                    <div class="social-links d-flex">
+                        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="copyright">
+                &copy; Copyright <strong><span>Lovebook</span></strong>. All Rights Reserved
+            </div>
+        </div>
+
+    </footer><!-- End Footer -->
+    <!-- End Footer -->
+
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

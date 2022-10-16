@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Lovebook</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/LogoLovebook.png" rel="icon">
+  <link href="assets/img/LogoLovebook.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Amatic+SC:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/logolovebookFIX.png" alt="">
+        <h1 class="navbar">Lovebook<span>.</span></h1>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li class="dropdown"><a href="category.html"><span>Kategori</span> <i
+                class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="category-fiction.html">Fiksi</a></li>
+              <li><a href="category-nonfiction.html">Non-Fiksi</a></li>
+            </ul>
+          </li>
+          <li><a href="aboutus.html">Tentang Kami</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+      <nav>
+        <a href="cart.html"><i class="bi bi-cart4 position-relative fs-5"><span
+              class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">2 <span
+                class="visually-hidden">unread messages</span></span></i></a>
+        <a class="btn-book-a-table bi bi-person-circle fs-5" href="login.html"></a>
+      </nav>
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center section-bg">
+    <div class="container">
+      <div id="carouselExampleControls" class="carousel slide  mb-5" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/img/banner3.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/banner1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/banner2.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="section-header">
+        <h2>Selamat datang di Lovebook</h2>
+        <p class="fs-2">Tempat jual-beli buku bekas <span>Berkualitas</span></p>
+        <a href="category.html" class="btn btn-book-a-table mb-2">Lihat semua buku</a>
+        <a href="bookup.html" class="shadow-sm ms-2 btn mb-2" style="
+        font-weight: 500; font-size: 14px; letter-spacing: 1px; display: inline-block; 
+        padding: 12px 36px; border-radius: 50px; transition: 0.5s; background-color:white; color:#CE1212">Jual buku</a>
+      </div>
+      <!-- <div class="row justify-content-between gy-5">
+        <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
+          <h2 data-aos="fade-up">Vedbook<br>buku bekas berkualitas</h2>
+          <p data-aos="fade-up" data-aos-delay="100">Hanya di Lovebook</p>
+          <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+            
+            <a href="#book-a-table" class="btn-book-a-table">Lihat Buku </a>
+          </div>
+        </div>
+        <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
+          <img src="assets/img/depan.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="300" width="3750" height="3000">
+        </div>
+      </div> -->
+    </div>
+  </section><!-- End Hero Section -->
+
+  <main id="main">
+
+    <!-- ======= Menu Section ======= -->
+    <section id="menu" class="menu">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Terlaris</h2>
+          <p>Paling Banyak <span>Dicari</span></p>
+        </div>
+
+        <ul class="nav nav-tabs d-flex justify-content-center" data-aos="fade-up" data-aos-delay="200">
+
+          <li class="nav-item">
+            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#menu-fiction">
+              <h4>Fiksi</h4>
+            </a>
+          </li><!-- End tab nav item -->
+
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-nonfiction">
+              <h4>Non Fiksi</h4>
+            </a>
+          </li><!-- End tab nav item -->
+
+        </ul>
+
+        <div class="tab-content" data-aos="fade-up" data-aos-delay="300">
+
+          <div class="tab-pane fade active show" id="menu-fiction">
+
+            <div class="tab-header text-center">
+              <h3>Fiksi</h3>
+            </div>
+
+            <div class="row gy-5">
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/enola1.png" class="glightbox"><img src="assets/img/menu/enola1.png"
+                    class="menu-img img-fluid" alt=""></a>
+                <h4 style="text-align:center">Enola Holmes & Black Barouche</h4>
+                <p class="description" style="text-align:center">
+                  <i>Enola Holmes adalah adik perempuan dari saudara laki-lakinya yang lebih terkenal ...</i> <br><small><a href="books/enola1.html" class="text-muted opacity-50">Lihat Selengkapnya</a></small>
+                </p>
+                <p class="price">
+                  Rp.80.000,-
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/alice.png" class="glightbox"><img src="assets/img/menu/alice.png"
+                    class="menu-img img-fluid" alt=""></a>
+                <h4 style="text-align:center">Alice Adventures in Wonderland</h4>
+                <p class="description" style="text-align:center">
+                  <i>Alice's Adventures in Wonderland adalah sebuah novel Inggris tahun 1865 oleh Lewis
+                    Carroll.</i><br><small><a href="books/alice.html" class="text-muted opacity-50">Lihat Selengkapnya</a></small>
+                </p>
+                <p class="price">
+                  Rp. 60.000,-
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/dearnathan.png" class="glightbox"><img src="assets/img/menu/dearnathan.png"
+                    class="menu-img img-fluid" alt=""></a>
+                <h4 style="text-align:center">Dear Nathan</h4>
+                <p class="description" style="text-align:center">
+                  <i>Berawal dari terlambat menghadiri upacara pertama di sekolah baru, Salma Alvira <a
+                      class="text-muted">...</a></i> <br><small><a href="books/dearnathan.html" class="text-muted opacity-50">Lihat
+                      Selengkapnya</a></small>
+                </p>
+                <p class="price">
+                  Rp. 70.000,-
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/limitless.png" class="glightbox"><img src="assets/img/menu/limitless.png"
+                    class="menu-img img-fluid" alt=""></a>
+                <h4 style="text-align:center">Limitless</h4>
+                <p class="description" style="text-align:center">
+                  <i>Di balik sebuah kesuksesan, selalu ada perjuangan dan lika-liku yang tidak ...</i> <br><small><a href="books/limitless.html" class="text-muted opacity-50">Lihat Selengkapnya</a></small>
+                </p>
+                <p class="price">
+                  Rp.80.000,-
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/littlewoman.png" class="glightbox"><img src="assets/img/menu/littlewoman.png"
+                    class="menu-img img-fluid" alt=""></a>
+                <h4 style="text-align:center">Little Women and Good Wives</h4>
+                <p class="description" style="text-align:center">
+                  <i>Kisah petualangan rumah tangga mereka, upaya mereka untuk meningkatkan ...</i>
+                  <br><small><a href="books/littlewoman.html" class="text-muted opacity-50">Lihat Selengkapnya</a></small>
+                </p>
+                <p class="price">
+                  Rp.80.000,-
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/kata.png" class="glightbox"><img src="assets/img/menu/kata.png"
+                    class="menu-img img-fluid" alt=""></a>
+                <h4 style="text-align:center">Kata</h4>
+                <p class="description" style="text-align:center">
+                  <i>“Andai bisa sesederhana itu, aku tidak akan pernah mencintaimu sejak awal 
+                    <a class="text-muted">...</a></i> <br><small><a href="books/kata.html" class="text-muted opacity-50">Lihat
+                      Selengkapnya</a></small>
+                </p>
+                <p class="price">
+                  Rp.75.000,-
+                </p>
+              </div><!-- Menu Item -->
+
+            </div>
+          </div><!-- End Starter Menu Content -->
+
+          <div class="tab-pane fade" id="menu-nonfiction">
+
+            <div class="tab-header text-center">
+              <h3>Non Fiksi</h3>
+            </div>
+
+            <div class="row gy-5">
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/howtowin.png" class="glightbox"><img src="assets/img/menu/howtowin.png"
+                    class="menu-img img-fluid" alt=""></a>
+                <h4 style="text-align:center">How to Win & Influence People</h4>
+                <p class="description" style="text-align:center">
+                  <i>Anda dapat mengejar pekerjaan yang Anda inginkan dan mendapatkannya!</i> <br><small><a href="books/howtowin.html" class="text-muted opacity-50">Lihat
+                      Selengkapnya</a></small>
+
+                </p>
+                <p class="price">
+                  Rp. 55.000,-
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/sukarno.png" class="glightbox"><img src="assets/img/menu/sukarno.png"
+                    class="menu-img img-fluid" alt=""></a>
+                <h4 style="text-align:center">Sukarno</h4>
+                <p class="description" style="text-align:center">
+                  <i>"Biarpun matahari di tangan kananku dan bulan di tangan kiriku, dengan maksud .. </i>
+                  <br><small><a href="books/sukarno.html" class="text-muted opacity-50">Lihat Selengkapnya</a></small>
+                </p>
+                <p class="price">
+                  Rp. 90.000,-
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/atomic1.png" class="glightbox"><img src="assets/img/menu/atomic1.png"
+                    class="menu-img img-fluid" alt=""></a>
+                <h4 style="text-align:center">Atomic Habits</h4>
+                <p class="description" style="text-align:center">
+                  <i>Orang mengira ketika Anda ingin mengubah hidup, Anda perlu memikirkan hal-hal besar. </i>
+                  <br><small><a href="books/atomic1.html" class="text-muted opacity-50">Lihat Selengkapnya</a></small>
+                </p>
+                <p class="price">
+                  Rp. 80.000,-
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/deartommorow.png" class="glightbox"><img src="assets/img/menu/deartommorow.png"
+                    class="menu-img img-fluid" alt=""></a>
+                <h4 style="text-align:center">Dear Tomorrow</h4>
+                <p class="description" style="text-align:center">
+                  <i>Buku ini adalah kumpulan pengalaman, pemikiran, dan percakapan tentang <a
+                      class="text-muted">...</a></i> <br><small><a href="books/deartomorrow.html" class="text-muted opacity-50">Lihat
+                      Selengkapnya</a></small>
+
+                </p>
+                <p class="price">
+                  Rp. 90.000,-
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/howtorespect.png" class="glightbox"><img src="assets/img/menu/howtorespect.png"
+                    class="menu-img img-fluid" alt=""></a>
+                <h4 style="text-align:center">How to Respect Myself</h4>
+                <p class="description style="text-align:center"">
+                  <i>Bagaimana anda menjaga dan mencintai diri sendiri? Metode pelatihan mandiri untuk <a
+                      class="text-muted">...</a></i> <br><small><a href="books/howtorespect.html" class="text-muted opacity-50">Lihat
+                      Selengkapnya</a></small>
+
+                </p>
+                <p class="price">
+                  Rp. 70.000,-
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/seniberbicara.png" class="glightbox"><img
+                    src="assets/img/menu/seniberbicara.png" class="menu-img img-fluid" alt=""></a>
+                <h4 style="text-align:center">Seni Berbicara yang Baik</h4>
+                <p class="description" style="text-align:center">
+                  <i>Tidak ada orang yang tidak bisa diajak bicara bila kita memiliki sifat yang tepat.</i>
+                  <br><small><a href="books/seniberbicara.html" class="text-muted opacity-50">Lihat Selengkapnya</a></small>
+
+                </p>
+                <p class="price">
+                  Rp. 75.000,-
+                </p>
+              </div><!-- Menu Item -->
+
+            </div>
+          </div><!-- End Breakfast Menu Content -->
+
+        </div>
+
+      </div>
+    </section><!-- End Menu Section -->
+
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <p>Rekomendasi <span>Buku</span></p>
+          <h2>Hanya untuk kamu</h2>
+        </div>
+        <div class="gallery-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                href="books/howtowin.html"><img src="assets/img/menu/howtowin.png" class="img-fluid"
+                  alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                href="books/kata.html"><img src="assets/img/menu/kata.png" class="img-fluid" alt=""></a>
+            </div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                href="books/seniberbicara.html"><img src="assets/img/menu/seniberbicara.png" class="img-fluid"
+                  alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                href="books/howtorespect.html"><img src="assets/img/menu/howtorespect.png" class="img-fluid"
+                  alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                href="books/littlewoman.html"><img src="assets/img/menu/littlewoman.png" class="img-fluid" alt=""></a>
+            </div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                href="books/atomic1.html"><img src="assets/img/menu/atomic1.png" class="img-fluid" alt=""></a>
+            </div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                href="books/limitless.html"><img src="assets/img/menu/limitless.png" class="img-fluid"
+                  alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                href="books/deartomorrow.html"><img src="assets/img/menu/deartommorow.png" class="img-fluid"
+                  alt=""></a></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+
+      </div>
+    </section><!-- End Gallery Section -->
+
+    <!-- ======= Stats Counter Section ======= -->
+    <section id="stats-counter" class="stats-counter">
+      <div class="container" data-aos="zoom-out">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="152" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Pengguna Aktif</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="542" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Pengunjung Harian</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Judul Buku</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="413" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Buku Terjual</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+        </div>
+
+      </div>
+    </section><!-- End Stats Counter Section -->
+
+
+
+    <!-- ======= Events Section ======= -->
+    <!-- <section id="events" class="events">
+          <div class="container-fluid" data-aos="fade-up">
+    
+            <div class="section-header">
+              <h2>Events</h2>
+              <p>Share <span>Your Moments</span> In Our Restaurant</p>
+            </div>
+    
+            <div class="slides-3 swiper" data-aos="fade-up" data-aos-delay="100">
+              <div class="swiper-wrapper">
+    
+                <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/menu/atomic1.png)">
+                  <h3>Atomic Habits</h3>
+                  <div class="price align-self-start">Rp. 80.000,-</div>
+                  <p class="description">
+                    
+                  </p>
+                </div>
+    
+                <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/menu/sukarno.png)">
+                  <h3>Sukarno</h3>
+                  <div class="price align-self-start">Rp. 90.000,-</div>
+                  <p class="description">
+                   
+                  </p>
+                </div>
+    
+                <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/menu/dearnathan.png)">
+                  <h3>Dear Nathan</h3>
+                  <div class="price align-self-start">Rp. 70.000,-</div>
+                  <p class="description">
+                  </p>
+                </div>
+    
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+    
+          </div>
+        </section> -->
+    <!-- End Events Section -->
+
+    <!-- ======= Book A Table Section ======= -->
+    <section id="book-a-table" class="book-a-table">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Ingin jual buku anda?</h2>
+          <p>Gabung <span>Bersama Kami</span> Sekarang!</p>
+          <a href="bookup.html" class="btn mt-3 shadow" style="font-weight: 500; font-size: 14px; letter-spacing: 1px; display: inline-block; 
+          padding: 12px 36px; border-radius: 50px; transition: 0.5s; background-color:#CE1212; color:white">Klik disini</a>
+        </div>
+
+        <!-- <div class="row g-0">
+
+          <div class="col-lg-4 reservation-img" style="background-image: url(assets/img/gabung.jpg);" data-aos="zoom-out" data-aos-delay="200"></div>
+
+          <div class="col-lg-8 d-flex align-items-center reservation-form-bg">
+            <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
+              <div class="row gy-4">
+                <div class="col-lg-4 col-md-6">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                  <div class="validate"></div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+                  <div class="validate"></div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                  <div class="validate"></div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <input type="text" name="date" class="form-control" id="date" placeholder="Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                  <div class="validate"></div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <input type="text" class="form-control" name="time" id="time" placeholder="Time" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                  <div class="validate"></div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <input type="number" class="form-control" name="people" id="people" placeholder="# of people" data-rule="minlen:1" data-msg="Please enter at least 1 chars">
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="mb-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Book a Table</button></div>
+            </form>
+
+        </div> -->
+
+      </div>
+    </section>
+
+
+
+    <!-- ======= Contact Section ======= -->
+    <!-- <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+        <form action="forms/contact.php" method="post" role="form" class="php-email-form p-3 p-md-4">
+          <div class="row">
+            <div class="col-xl-6 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="col-xl-6 form-group">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+          </div>
+          <div class="my-3">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your message has been sent. Thank you!</div>
+          </div>
+          <div class="text-center"><button type="submit">Send Message</button></div>
+        </form>
+
+      </div>
+    </section> -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="row gy-3">
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-geo-alt icon"></i>
+          <div>
+            <h4>Alamat</h4>
+            <p>
+              KAMPUS BOGOR - Jl. Raya Pajajaran, Kota Bogor,<br>
+              Jawa Barat 16128 <br>
+            </p>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links d-flex">
+          <i class="bi bi-telephone icon"></i>
+          <div>
+            <h4>Hubungi kami</h4>
+            <p>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> love@book.com<br>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Temukan kami</h4>
+          <div class="social-links d-flex">
+            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Lovebook</span></strong>. All Rights Reserved
+      </div>
+    </div>
+
+  </footer><!-- End Footer -->
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
